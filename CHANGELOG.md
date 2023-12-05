@@ -1,5 +1,22 @@
 # Changelog
 
+## [4.5.0](https://github.com/googleapis/gax-dotnet/compare/Google.Api.Gax-4.4.0...Google.Api.Gax-4.5.0) (2023-12-05)
+
+
+### Features
+
+* Add FieldInfo for API field information ([051bf9b](https://github.com/googleapis/gax-dotnet/commit/051bf9be21046f1e8b69fb9518da813d32ad488a))
+* Keep a copy of common protos within Google.Api.CommonProtos/protos ([5f981dd](https://github.com/googleapis/gax-dotnet/commit/5f981ddd17370983c21e12e5f96129e3b1144b52))
+* Make CallSettings.FromGoogleRequestParamsHeader public ([6449aa5](https://github.com/googleapis/gax-dotnet/commit/6449aa50b423f2ca4ea31f0d7483cbc629f7c67c))
+* Pack protos in NuGet package for Google.Api.CommonProtos ([4eb8a70](https://github.com/googleapis/gax-dotnet/commit/4eb8a70d30399a0bb8209ed2b1bea6ea528418da))
+* Regenerate common protos ([1af2b4e](https://github.com/googleapis/gax-dotnet/commit/1af2b4e3ecbf879d655e6dd804a8bd423123b028))
+
+
+### Bug Fixes
+
+* Encode unknown enums as numeric values for REGAPIC paths and query parameters, and routing headers ([5508b25](https://github.com/googleapis/gax-dotnet/commit/5508b2551e46503e86626908b9b2bd60fa46854e))
+* Use ordinal string operations ([9456e22](https://github.com/googleapis/gax-dotnet/commit/9456e228162f8baf7c6a559e9ac4d5d1bb982848))
+
 ## [4.4.0](https://github.com/googleapis/gax-dotnet/compare/Google.Api.Gax-4.3.1...Google.Api.Gax-4.4.0) (2023-05-17)
 
 
